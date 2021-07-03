@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="7.755023">
+    <testcase classname="To validate the function of facebook application" name="To validating the facebook applicatio  with invalid username and password" time="4.282301">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[@id='emaDEGIFDil'],By.xpath: //input[@name='emSIEFGail']})&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-E2V5VNP', ip: '192.168.43.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)&#13;&#10;&#9;at org.base.BaseClass.fill(BaseClass.java:60)&#13;&#10;&#9;at org.steps.StepDefinition.user_is_going_to_enter_username_and_password_field(StepDefinition.java:25)&#13;&#10;&#9;at ✽.user is going to enter username and password field(file:src/test/resources/login.feature:9)&#13;&#10;"><![CDATA[Given user should be launch ChromeBrowser and enter the url.................passed
+When user is going to enter username and password field.....................failed
+And user should be click to login button....................................skipped
+Then user should be navigate to credential page.............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[@id='emaDEGIFDil'],By.xpath: //input[@name='emSIEFGail']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E2V5VNP', ip: '192.168.43.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at org.base.BaseClass.fill(BaseClass.java:60)
+	at org.steps.StepDefinition.user_is_going_to_enter_username_and_password_field(StepDefinition.java:25)
+	at ✽.user is going to enter username and password field(file:src/test/resources/login.feature:9)
+]]></failure>
+    </testcase>
+    <testcase classname="To validate the function of facebook application" name="To validating the facebook with invalid username and invalid password" time="3.472722">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[@id='emaDEGIFDil'],By.xpath: //input[@name='emSIEFGail']})&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-E2V5VNP', ip: '192.168.43.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)&#13;&#10;&#9;at org.base.BaseClass.fill(BaseClass.java:60)&#13;&#10;&#9;at org.steps.StepDefinition.user_is_going_to_enter_username_and_password(StepDefinition.java:49)&#13;&#10;&#9;at ✽.user is going to enter username and password(file:src/test/resources/login.feature:17)&#13;&#10;"><![CDATA[Given user should be launch ChromeBrowser and enter the url.................passed
+When user is going to enter username and password...........................failed
+And user should be click to login btn.......................................skipped
+Then user should be navigate to error page..................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[@id='emaDEGIFDil'],By.xpath: //input[@name='emSIEFGail']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E2V5VNP', ip: '192.168.43.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:58)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at org.base.BaseClass.fill(BaseClass.java:60)
+	at org.steps.StepDefinition.user_is_going_to_enter_username_and_password(StepDefinition.java:49)
+	at ✽.user is going to enter username and password(file:src/test/resources/login.feature:17)
+]]></failure>
+    </testcase>
+</testsuite>
